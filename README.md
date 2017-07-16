@@ -15,3 +15,9 @@ Usage:
 3. docker-compose up -d
 4. dc project (connects to web container which was difficult to do before)
 
+
+Notes:
+
+winpty and git-bash.exe are needed just as wrappers, since you're using WSL you can install git normally and use it within bash.exe (essentially you can ignore these 2 extra programs entirely once installed)
+
+Windows can connect to docker containers just fine, as long as you are running powershell or cmd. But screw that.. whats the point of WSL then? This script should help you stay in bash and not have to switch terminals / memorize any weird commands or sequences. Simply "dc <project name>" and you're inside the container
