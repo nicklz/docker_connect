@@ -3,10 +3,10 @@ If you are running Windows 10 Pro with WSL (Bash / Ubuntu on Windows) and wish t
 Pre-reqs / Install:
 
 1. Install Windows 10 Pro and WSL: https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
-2. Install Docker: for windows https://docs.docker.com/docker-for-windows/install/
+2. Install Docker for Windows: https://docs.docker.com/docker-for-windows/install/
 3. Install Git Bash: https://github.com/git-for-windows/git/releases/download/v2.13.3.windows.1/Git-2.13.3-64-bit.exe and place it in C:\programs\Git\git-bash.exe
 4. Install Winpty: https://github.com/rprichard/winpty
-5. Install DC: git clone https://github.com/nicklz/docker_connect && cd docker_connect && chmod u+x dc && mv dc /us/bin/ 
+5. Install DC: git clone https://github.com/nicklz/docker_connect && cd docker_connect && chmod u+x dc && mv dc /usr/bin/ 
 
 Usage:
 
@@ -17,6 +17,8 @@ Usage:
 
 
 Notes:
+
+Why? because Docker + Windows + Bash is a great way to locally develop websites. Docker has greater performance over vagrant / virtual box, Windows has greater UI than mac / linux distros and WSL Bash is better than powershell / cmd
 
 winpty and git-bash.exe are needed just as wrappers, since you're using WSL you can install git normally and use it within bash.exe (essentially you can ignore these 2 extra programs entirely once installed)
 
