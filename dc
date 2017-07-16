@@ -1,0 +1,11 @@
+#/bin/bash
+
+name=$1
+
+
+first="/mnt/c/programs/Git/git-bash.exe -c 'winpty docker exec -it " 
+last="_web bash'"
+
+echo $first$name$last
+
+$first$name$last 
