@@ -1,3 +1,5 @@
+#As of Windows 1809 this is no longer needed
+
 If you are running Windows 10 Pro with WSL (Bash / Ubuntu on Windows) and wish to use docker this setup should help
 
 Pre-reqs / Install:
